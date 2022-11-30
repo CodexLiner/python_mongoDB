@@ -1,5 +1,9 @@
+**Q1. Write a Code to add Mailing feature in the flask application.**
 
-**Q. What is openCV ?**
+```python
+your code goes here
+```
+**Q2. What is openCV ?**
 
 [OpenCV](https://opencv.org/)  ‘Open Source Computer Vision Library’ is an open-source library that includes several hundreds of computer vision algorithms. Using OpenCV, you could pretty much do every Computer Vision task that could ever be imagined !
 
@@ -35,7 +39,7 @@ And Many More
 
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
 
-**Q. What is Pandas ?**
+**Q3. What is Pandas.**
 
 Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
 ##### Adavantage of Pandas
@@ -47,8 +51,14 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Flexible reshaping and pivoting of data sets.
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
+##### code to join two datafram
+#
 
-**Q. Write a Code to add Establish Connection with MongoDB ?**
+```python
+    your code goes here
+```
+
+**Q4. Write a Code to add Establish Connection with MongoDB**
 
 ```python
 # PyMongo is a Python distribution containing tools for working with MongoDB
@@ -98,5 +108,19 @@ if __name__ == "__main__":
 #
 ```python
 $ python3 -m pip install pymongo
+```
+**Q5. Simple post api in python using django framwork**
+##### Tasks
+- Takes name , date of birth and country as input
+- saves information in mongoDb and as well as to the database also
+- Returns response
+```json
+if -> success {"status" :"successfull"}
+else->  {"status" :"failed"}
+```
+##### Python code
+#
+```python
+your code goes here
 ```
 
