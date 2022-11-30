@@ -51,7 +51,7 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Flexible reshaping and pivoting of data sets.
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
-##### code to join two datafram
+##### Code to join two datafram
 #
 
 ```python
@@ -114,7 +114,7 @@ $ python3 -m pip install pymongo
 - Takes name , date of birth and country as input
 - saves information in mongoDb and as well as to the database also
 - Returns response
-```json
+```
 if -> success {"status" :"successfull"}
 else->  {"status" :"failed"}
 ```
