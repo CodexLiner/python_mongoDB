@@ -112,8 +112,8 @@ $ python3 -m pip install pymongo
 **Q5. Simple post api in python using django framwork**
 ##### Tasks
 - Takes name , date of birth and country as input
-- saves information in mongoDb and as well as to the database also
-- Returns response
+- saves information as excel file and as well as to the database also
+- Returns JSON response
 ```
 if -> success {"status" :"successfull"}
 else->  {"status" :"failed"}
