@@ -3,6 +3,7 @@
 ```python
 your code goes here
 ```
+#
 **Q2. What is openCV ?**
 
 [OpenCV](https://opencv.org/)  ‘Open Source Computer Vision Library’ is an open-source library that includes several hundreds of computer vision algorithms. Using OpenCV, you could pretty much do every Computer Vision task that could ever be imagined
@@ -38,7 +39,7 @@ Motion understanding
 And Many More
 
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
-
+#
 **Q3. What is Pandas.**
 
 Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
@@ -52,12 +53,11 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
 ##### Code to join two datafram
-#
 
 ```python
     your code goes here
 ```
-
+#
 **Q4. Write a Code to add Establish Connection with MongoDB**
 
 ```python
@@ -105,10 +105,11 @@ if __name__ == "__main__":
 - Uncomment Second Line and Run Code It will Update the user that we have added on the first run to the database
 - Uncomment Third Line and Run Code It will Delete the user that we have added on the first run to the database
 ###### NOTE:- we are using pymongo for establishing connection to the database so make sure to install library using below command
-#
+
 ```python
 $ python3 -m pip install pymongo
 ```
+#
 **Q5. Simple post api in python using django framwork**
 ##### Tasks
 - Takes name , date of birth and country as input
