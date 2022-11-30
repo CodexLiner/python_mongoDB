@@ -94,7 +94,7 @@ if __name__ == "__main__":
 - Uncomment First Line and Run Code It will add a new user to the database
 - Uncomment Second Line and Run Code It will Update the user that we have added on the first run to the database
 - Uncomment Third Line and Run Code It will Delete the user that we have added on the first run to the database
-###### NOTE:- we are using pymongo for establishing connection to the database so make sure to install library
+###### NOTE:- we are using pymongo for establishing connection to the database so make sure to install library using below command
 #
 ```python
 $ python3 -m pip install pymongo
