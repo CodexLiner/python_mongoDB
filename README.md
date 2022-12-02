@@ -174,7 +174,7 @@ Step -4 : Django python manage.py migrate command
 ```python 
  python manage.py migrate
 ```
-Step -5 : Django python manage.py migrate command
+Step -5 : Django python run server command
 ```python 
  python manage.py runserver
 ```
