@@ -142,55 +142,52 @@ else->  {"status" :"failed"}
 your code goes here
 ```
 
-#### How to create User
-**Example request:**
+##### How to create User
+###### Example request:
 - **POST** [localhost:8000/api/user_create](http://localhost:8000/api/user_create)
 - **Content-Type:** application/json
-
 Example data for content area
 ```json
-	{"name": "arun", "dob": "2012-02-12", "country": "India"}
+{"name": "arun", "dob": "2012-02-12", "country": "India"}
 ```
 Example Response will be
 
 ```json
-	{"status": "successfull"}
+{"status": "successfull"}
 ```
 #### How GET User(s) List
-**Example request:**
+###### Example request:
 - **GET** [localhost:8000/api/user](http://localhost:8000/api/user)
 - **Content-Type:** application/json
-
 Example Response will be
 
 ```json
-	[
-	{
-	   "id" : 1,
-	   "name" : "users_name",
-	   "dob" : "01-01-1979",
-	   "country" : "USA"
-	},
-	{
-	   "id" : 2,
-	   "name" : "Arun",
-	   "dob" : "01-01-1979",
-	   "country" : "UK"
-	},
-	]
+[
+    {
+      "id" : 1,
+      "name" : "users_name",
+      "dob" : "01-01-1979",
+      "country" : "USA"
+    },
+    {
+       "id" : 2,
+       "name" : "Arun",
+       "dob" : "01-01-1979",
+       "country" : "UK"
+    }
+]
 ```
 #### How to GET any specific user via id
-**Example request:**
+###### Example request:
 - **GET** [localhost:8000/api/user/replace_with_id](http://localhost:8000/api/user/2)
 - **Content-Type:** application/json
-
 Example Response will be
 
 ```json
-	{
-	   "id" : 1,
-	   "name" : "users_name",
-	   "dob" : "01-01-1979",
-	   "country" : "USA"
-	}
+{
+   "id" : 1,
+   "name" : "users_name",
+   "dob" : "01-01-1979",
+   "country" : "USA"
+}
 ```
