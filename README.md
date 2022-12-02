@@ -33,7 +33,7 @@ Applications:
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
 
 ----
-**Q3. What is Pandas.**
+**Q3. What is Pandas and Write down a code to join two join data frames.**
 
 Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
 ##### Adavantage of Pandas
@@ -45,7 +45,7 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Flexible reshaping and pivoting of data sets.
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
-### Code to join two datafram
+### Code to join two dataframe
 To join data frames we have to first create two dataframes then we will concat or we can say we will join those two data frames
 ##### here is dataframe 1
 ```python
