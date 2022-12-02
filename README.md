@@ -170,11 +170,16 @@ Step -3 : Installs libraries and dependencies listed in ```requirements.txt``` i
 ```python 
  pip install -r requirements.txt
 ```
-Step -4 : Django python manage.py migrate command
+Step -4 : Django python manage.py makemigrations command
+```python 
+ python manage.py makemigrations
+
+```
+Step -5 : Django python manage.py migrate command
 ```python 
  python manage.py migrate
 ```
-Step -5 : Django python run server command
+Step -6 : Django python Runserver command
 ```python 
  python manage.py runserver
 ```
