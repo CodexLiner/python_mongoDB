@@ -1,6 +1,6 @@
 **Q1. Write a Code to add Mailing feature in the flask application.**
-### How to run App and send mail
-Step -1 : First you need to open prject directory
+##### How to run App and send mail
+Step -1 : First you need to open project directory
 ```shell
 cd question_1
 ```
@@ -157,12 +157,32 @@ $ python3 -m pip install pymongo
 if -> success {"status" :"successfull"}
 else->  {"status" :"failed"}
 ```
-##### Python code
-
-```python
-your code goes here
+##### How to run App
+Step -1 : First you need to open project directory
+```shell
+cd question_5
 ```
-#
+Step -2 : Activates the virutal environment required for the project dependency isolation.
+```shell 
+ source venv/bin/activate or .\venv\Scripts\activate
+```
+Step -3 : Installs libraries and dependencies listed in ```requirements.txt``` in active environment..
+```python 
+ pip install -r requirements.txt
+```
+Step -4 : Django python manage.py migrate command
+```python 
+ python manage.py migrate
+```
+Step -5 : Django python manage.py migrate command
+```python 
+ python manage.py runserver
+```
+**Now app is Running on port no. 8000** 
+
+Step -6 : now Open [http:localhost:8000](http://localhost:8000)
+
+###### NOTE: Now Follow Below Instructions
 #### How to create User
 ###### Example request:
 - **POST** [localhost:8000/api/user_create](http://localhost:8000/api/user_create)
