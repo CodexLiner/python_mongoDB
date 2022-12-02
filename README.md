@@ -22,7 +22,7 @@ Step -5 : change email recipients E-mail Id in file ```app.py```
 ```shell 
  ./routes/app.py
 ```
-Step -6 : now Open http:localhost:5000 it will send an email to recipients email 
+Step -6 : now Open [http:localhost:5000](http://localhost:5000) it will send an email to recipients email 
 
 Step -7 : check recipients maill box you will be an emaill from
 ```emaill
