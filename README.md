@@ -104,8 +104,8 @@ def main():
     database = getDatabase()
     collection = database["user_collection"]
     # insert_user(data= {"_id": 100, "user_name": "Sushil"} , collection=collection)
-    # delete_user(query = {"_id": 100} , collection=collection)
     # update_user(query={"_id": 100}, collection=collection , data_to_update= {"$set" : {"user_name" : "Gopal Meena"}} )
+    # delete_user(query = {"_id": 100} , collection=collection)
 
 # calling main function
 if __name__ == "__main__":
