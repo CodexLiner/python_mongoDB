@@ -3,6 +3,7 @@
 ```python
 your code goes here
 ```
+----
 **Q2. What is openCV ?**
 
 [OpenCV](https://opencv.org/)  ‘Open Source Computer Vision Library’ is an open-source library that includes several hundreds of computer vision algorithms. Using OpenCV, you could pretty much do every Computer Vision task that could ever be imagined
@@ -39,6 +40,7 @@ And Many More
 
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
 
+----
 **Q3. What is Pandas.**
 
 Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
@@ -75,7 +77,7 @@ To join data frames we have to first create two dataframes then we will concat o
 In [3]: frames = [df1, df2]
 In [4]: result = pd.concat(frames)
 ```
-#
+----
 **Q4. Write a Code to add Establish Connection with MongoDB**
 
 ```python
@@ -127,6 +129,7 @@ if __name__ == "__main__":
 ```python
 $ python3 -m pip install pymongo
 ```
+----
 **Q5. Simple post api in python using django framwork**
 ##### Tasks
 - Takes name , date of birth and country as input
@@ -141,12 +144,12 @@ else->  {"status" :"failed"}
 ```python
 your code goes here
 ```
-
+#
 #### How to create User
 ###### Example request:
 - **POST** [localhost:8000/api/user_create](http://localhost:8000/api/user_create)
 - **Content-Type:** application/json
-----
+
 Example data for content area
 ```json
 {"name": "arun", "dob": "2012-02-12", "country": "India"}
@@ -157,11 +160,12 @@ Example Response will be
 {"status": "successfull"}
 ```
 ###### NOTE: An excel file named as sample.xlsx will be found in the root directory of the project where all the data is being append.
+#
 #### How GET User(s) List
 ###### Example request:
 - **GET** [localhost:8000/api/user](http://localhost:8000/api/user)
 - **Content-Type:** application/json
----
+
 Example Response will be
 
 ```json
@@ -180,11 +184,12 @@ Example Response will be
     }
 ]
 ```
+#
 #### How to GET any specific user via id
 ###### Example request:
 - **GET** [localhost:8000/api/user/replace_with_id](http://localhost:8000/api/user/2)
 - **Content-Type:** application/json
-----
+
 Example Response will be
 
 ```json
