@@ -52,40 +52,28 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
 ### Code to join two datafram
-#
-##### here is datafram 1
-#
+To join data frames we have to first create two dataframes then we will concat or we can say we will join those two data frames
+##### here is dataframe 1
 ```python
    In [1]: df1 = pd.DataFrame({
-
     "A": ["A0", "A1", "A2", "A3"],
-
     "B": ["B0", "B1", "B2", "B3"],
-
     "C": ["C0", "C1", "C2", "C3"],
-
     "D": ["D0", "D1", "D2", "D3"], }, index=[0, 1, 2, 3], )
-    
 ```
-##### here is datafram 2
-#
+##### here is dataframe 2
 ```python
   In [2]: df2 = pd.DataFrame( {
-  
     "A": ["A4", "A5", "A6", "A7"],
-
     "B": ["B4", "B5", "B6", "B7"],
-
     "C": ["C4", "C5", "C6", "C7"],
-
     "D": ["D4", "D5", "D6", "D7"],  }, index=[4, 5, 6, 7],)
 ```
-##### Now we will join our Dataframs
-#
+##### here is how you join our Dataframes
 
 ```python
-In [4]: frames = [df1, df2]
-In [5]: result = pd.concat(frames)
+In [3]: frames = [df1, df2]
+In [4]: result = pd.concat(frames)
 ```
 #
 **Q4. Write a Code to add Establish Connection with MongoDB**
@@ -154,3 +142,55 @@ else->  {"status" :"failed"}
 your code goes here
 ```
 
+#### How to create User
+**Example request:**
+- **POST** [localhost:8000/api/user_create](http://localhost:8000/api/user_create)
+- **Content-Type:** application/json
+
+Example data for content area
+```json
+	{"name": "arun", "dob": "2012-02-12", "country": "India"}
+```
+Example Response will be
+
+```json
+	{"status": "successfull"}
+```
+#### How GET User(s) List
+**Example request:**
+- **GET** [localhost:8000/api/user](http://localhost:8000/api/user)
+- **Content-Type:** application/json
+
+Example Response will be
+
+```json
+	[
+	{
+	   "id" : 1,
+	   "name" : "users_name",
+	   "dob" : "01-01-1979",
+	   "country" : "USA"
+	},
+	{
+	   "id" : 2,
+	   "name" : "Arun",
+	   "dob" : "01-01-1979",
+	   "country" : "UK"
+	},
+	]
+```
+#### How to GET any specific user via id
+**Example request:**
+- **GET** [localhost:8000/api/user/replace_with_id](http://localhost:8000/api/user/2)
+- **Content-Type:** application/json
+
+Example Response will be
+
+```json
+	{
+	   "id" : 1,
+	   "name" : "users_name",
+	   "dob" : "01-01-1979",
+	   "country" : "USA"
+	}
+```
