@@ -3,7 +3,6 @@
 ```python
 your code goes here
 ```
-#
 **Q2. What is openCV ?**
 
 [OpenCV](https://opencv.org/)  ‘Open Source Computer Vision Library’ is an open-source library that includes several hundreds of computer vision algorithms. Using OpenCV, you could pretty much do every Computer Vision task that could ever be imagined
@@ -39,7 +38,7 @@ Motion understanding
 And Many More
 
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
-#
+
 **Q3. What is Pandas.**
 
 Pandas is an open-source library that is built on top of NumPy library. It is a Python package that offers various data structures and operations for manipulating numerical data and time series. It is mainly popular for importing and analyzing data much easier. Pandas is fast and it has high-performance & productivity for users.
@@ -52,10 +51,41 @@ Pandas is an open-source library that is built on top of NumPy library. It is a 
 - Flexible reshaping and pivoting of data sets.
 - Provides time-series functionality.
 - Powerful group by functionality for performing split-apply-combine operations on data sets.
-##### Code to join two datafram
+### Code to join two datafram
+#
+##### here is datafram 1
+#
+```python
+   In [1]: df1 = pd.DataFrame({
+
+    "A": ["A0", "A1", "A2", "A3"],
+
+    "B": ["B0", "B1", "B2", "B3"],
+
+    "C": ["C0", "C1", "C2", "C3"],
+
+    "D": ["D0", "D1", "D2", "D3"], }, index=[0, 1, 2, 3], )
+    
+```
+##### here is datafram 2
+#
+```python
+  In [2]: df2 = pd.DataFrame( {
+  
+    "A": ["A4", "A5", "A6", "A7"],
+
+    "B": ["B4", "B5", "B6", "B7"],
+
+    "C": ["C4", "C5", "C6", "C7"],
+
+    "D": ["D4", "D5", "D6", "D7"],  }, index=[4, 5, 6, 7],)
+```
+##### Now we will join our Dataframs
+#
 
 ```python
-    your code goes here
+In [4]: frames = [df1, df2]
+In [5]: result = pd.concat(frames)
 ```
 #
 **Q4. Write a Code to add Establish Connection with MongoDB**
@@ -105,11 +135,10 @@ if __name__ == "__main__":
 - Uncomment Second Line and Run Code It will Update the user that we have added on the first run to the database
 - Uncomment Third Line and Run Code It will Delete the user that we have added on the first run to the database
 ###### NOTE:- we are using pymongo for establishing connection to the database so make sure to install library using below command
-
+#
 ```python
 $ python3 -m pip install pymongo
 ```
-#
 **Q5. Simple post api in python using django framwork**
 ##### Tasks
 - Takes name , date of birth and country as input
