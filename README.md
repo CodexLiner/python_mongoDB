@@ -20,23 +20,15 @@ OpenCV contains implementations of more than 2500 algorithms! It is freely avail
 
 Applications:
 
-**OpenCV’s** application areas include:
-
-2D and 3D feature toolkits
-
-Egomotion estimation
-
-Facial recognition system
-
-Gesture recognition
-
-Human–computer interaction (HCI)
-
-Mobile robotics
-
-Motion understanding
-
-And Many More
+##### **OpenCV’s** application areas include:
+- 2D and 3D feature toolkits
+- Egomotion estimation
+- Facial recognition system
+- Gesture recognition
+- Human–computer interaction (HCI)
+- Mobile robotics
+- Motion understanding
+- And Many More
 
 OpenCV gives access to more than 2,500 state-of-the-art and classic algorithms. By using this library, users can perform various tasks like removing red eyes, extracting 3D models of objects, following eye movements, etc.
 
