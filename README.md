@@ -17,15 +17,14 @@ Step -4 : Starts the app in development mode. Open http://localhost:5000 to view
  python app.py
 ```
 **Now app is ready to send mail** 
+
 Step -5 : change email recipients E-mail Id in file ```app.py```
 ```shell 
  ./routes/app.py
 ```
 Step -6 : now Open http:localhost:5000 it will send an email to recipients email 
-```shell 
- ./routes/app.py
-```
-Step -6 : check recipients maill box you will be an emaill from
+
+Step -7 : check recipients maill box you will be an emaill from
 ```emaill
 me@arunbamniya.com
 ```
