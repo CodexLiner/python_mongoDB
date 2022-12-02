@@ -156,6 +156,7 @@ Example Response will be
 ```json
 {"status": "successfull"}
 ```
+###### NOTE: An excel file named as sample.xlsx will be found in the root directory of the project where all the data is being append.
 #### How GET User(s) List
 ###### Example request:
 - **GET** [localhost:8000/api/user](http://localhost:8000/api/user)
