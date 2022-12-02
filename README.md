@@ -1,8 +1,35 @@
 **Q1. Write a Code to add Mailing feature in the flask application.**
-
-```python
-your code goes here
+### How to run App and send mail
+Step -1 : First you need to open prject directory
+```shell
+cd question_1
 ```
+Step -2 : Activates the virutal environment required for the project dependency isolation.
+```shell 
+ source venv/bin/activate or .\venv\Scripts\activate
+```
+Step -3 : Installs libraries and dependencies listed in ```requirements.txt``` in active environment..
+```python 
+ pip install -r requirements.txt
+```
+Step -4 : Starts the app in development mode. Open http://localhost:5000 to view it in browser..
+```python 
+ python app.py
+```
+**Now app is ready to send mail** 
+Step -5 : change email recipients E-mail Id in file ```app.py```
+```shell 
+ ./routes/app.py
+```
+Step -6 : now Open http:localhost:5000 it will send an email to recipients email 
+```shell 
+ ./routes/app.py
+```
+Step -6 : check recipients maill box you will be an emaill from
+```emaill
+me@arunbamniya.com
+```
+###### NOTE: please check spam box if you did not found mail in mailbox 
 ----
 **Q2. What is openCV ?**
 
